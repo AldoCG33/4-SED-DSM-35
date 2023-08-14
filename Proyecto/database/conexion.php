@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    ESTRUCRA DE MI PROYECTOS
-</body>
-</html>
+<?php
+$cone= new mysqli('localhost','root','','proyectosed4');
+//$cone= new mysqli('154.56.47.52','u196388150_SED','GjdlIoeKQ0%pd50','u196388150_SED');
+
+if(mysqli_connect_error()){
+echo("no se conecto");
+}else{
+   //echo("se conecto");
+}
+
+?>
